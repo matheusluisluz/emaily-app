@@ -1,4 +1,5 @@
 const app = require('./lib/application');
+const logger = require('./lib/config/winston');
 
 const PORT = process.env.PORT || 5000;
 
