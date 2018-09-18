@@ -1,0 +1,8 @@
+{
+  "id": "User",
+  "properties":{
+    "googleId":{
+      "type": "string"
+    }
+  }
+}
