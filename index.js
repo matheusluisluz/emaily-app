@@ -4,8 +4,9 @@ const database = require('./lib/config/db');
 const keys = require('./lib/config/key');
 
 const PORT = process.env.PORT || 5000;
+const uri = `${keys.mongoURI}${keys.dbName}`
 
-database.connect(keys.mongoURI, (err) => {
+database.connect(uri, (err) => {
     if (err) {
         logger.error('Shutdown the application because an error occurred ' +
             'when connecting to database');
