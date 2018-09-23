@@ -1,2 +1,3 @@
 node_modules/
 lib/config/key.js
+lib/config/dev.js
