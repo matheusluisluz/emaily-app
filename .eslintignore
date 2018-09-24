@@ -7,8 +7,6 @@ circle.yml
 sonar-project.properties
 docker-compose.override.yml
 
-conf/
-
 log/
 node_modules/
 tasks/
