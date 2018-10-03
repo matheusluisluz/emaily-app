@@ -1,8 +1,12 @@
 {
   "id": "User",
-  "properties":{
-    "googleId":{
+  "properties": {
+    "googleId": {
       "type": "string"
+    },
+    "credits": {
+      "type": "number",
+      "default": 0
     }
   }
 }
