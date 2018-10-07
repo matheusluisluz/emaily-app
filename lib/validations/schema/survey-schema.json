@@ -1,0 +1,25 @@
+{
+  "id": "Survey",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "subect": {
+      "type": "string"
+    },
+    "recipients": {
+      "type": "array"
+    },
+    "yes":{
+      "type": "number",
+      "default": 0
+    },
+    "no":{
+      "type": "number",
+      "default": 0
+    }
+  }
+}

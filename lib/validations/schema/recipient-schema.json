@@ -1,0 +1,12 @@
+{
+  "id": "Survey",
+  "properties": {
+    "email": {
+      "type": "string"
+    },
+    "responded": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
